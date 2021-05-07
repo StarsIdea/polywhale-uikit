@@ -1999,7 +1999,8 @@ var IconModule = /*#__PURE__*/Object.freeze({
     GooseIcon: Icon$a,
     HandshakeIcon: Icon$9,
     LayerIcon: Icon$8,
-    RoadmapIcon: Icon$7
+    RoadmapIcon: Icon$7,
+    ReefIcon: Icon$t,
 });
 
 var MenuButton = styled(Button)(templateObject_1$d || (templateObject_1$d = __makeTemplateObject(["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"], ["\n  color: ", ";\n  padding: 0 8px;\n  border-radius: 8px;\n"])), function (_a) {
@@ -2054,6 +2055,11 @@ var links = [
     {
         label: "Farms",
         icon: "FarmIcon",
+        href: "/farms",
+    },
+    {
+        label: "Reef",
+        icon: "ReefIcon",
         href: "/farms",
     },
     {

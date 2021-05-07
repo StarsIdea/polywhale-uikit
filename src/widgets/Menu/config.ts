@@ -24,6 +24,11 @@ export const links = [
     href: "/farms",
   },
   {
+    label: "Reef",
+    icon: "ReefIcon",
+    href: "/farms",
+  },
+  {
     label: "Pools",
     icon: "PoolIcon",
     href: "/syrup",
